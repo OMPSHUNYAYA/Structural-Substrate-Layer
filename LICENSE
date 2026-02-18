@@ -1,0 +1,178 @@
+Open Standard License — SSSL
+
+Shunyaya Structural Substrate Layer (SSSL)
+
+
+Permission
+
+Permission is hereby granted, free of charge, to any person or organization to use, implement, reproduce, publish, distribute, reference, extend, or incorporate this Standard, in whole or in part, without restriction.
+
+This permission applies to both commercial and non-commercial use.
+
+No registration required.
+No fees required.
+No approval required.
+
+
+No Restrictions
+
+This Open Standard imposes no legal, technical, or commercial restrictions on use or implementation.
+
+Attribution is not required.
+No endorsement or certification is implied.
+No runtime obligations apply.
+No implementation approval is required.
+
+Correctness and conformance are governed by deterministic structural behavior and replay identity, not by licensing terms.
+
+
+Recommended Attribution (Optional)
+
+Attribution is recommended but not required.
+
+If provided, the preferred form is:
+
+Implements Shunyaya Structural Substrate Layer (SSSL).
+
+Attribution must not imply endorsement by the authors or the Shunyaya framework.
+
+Use of the name “Shunyaya Structural Substrate Layer (SSSL)” must not imply:
+
+• endorsement
+• certification
+• official compliance approval
+• governance authority
+• authorship by the original authors
+
+
+Scope of the Standard
+
+Shunyaya Structural Substrate Layer (SSSL) defines a structural regime algebra over scalar magnitude evolution.
+
+SSSL establishes:
+
+Finite structural alphabet:
+
+A4 = {Z0, Eplus, S, Eminus}
+
+Conservative collapse invariant:
+
+phi((m,a,s)) = m
+
+Deterministic structural mapping:
+
+a_i = F(E_i, dE_dt_i, discharge_i)
+
+where:
+
+dE_dt_i = (E_i - E_{i-1}) / Delta_t (uniform sampling assumed)
+
+Deterministic accumulation layer s_i
+
+Deterministic transition operator P
+
+Spectral boundedness condition:
+
+rho(P) <= 1
+|lambda| <= 1
+
+Replay identity discipline:
+
+B_A = B_B
+
+Structural admissibility function:
+
+adm_E(T) in {ALLOW, ABSTAIN}
+
+SSSL does not:
+
+• modify physical laws
+• modify domain equations
+• alter measured magnitude
+• introduce predictive models
+• simulate system dynamics
+• perform optimization
+• inject control authority
+• guarantee safety outcomes
+
+SSSL governs structural posture, not causation.
+
+
+Conformance
+
+An implementation conforms to the SSSL Open Standard if it:
+
+Preserves magnitude exactly:
+
+phi((m,a,s)) = m
+
+Maintains finite alphabet closure:
+
+|A4| = 4
+
+Uses deterministic structural mapping F.
+
+Produces deterministic transition operator P.
+
+Satisfies spectral boundedness:
+
+rho(P) <= 1
+|lambda| <= 1
+
+Produces byte-identical artifacts under independent replay:
+
+B_A = B_B
+
+Avoids probabilistic or tolerance-based arbitration.
+
+Any implementation introducing:
+
+• randomness
+• probabilistic inference
+• adaptive tuning
+• dynamic alphabet expansion
+• tolerance-based comparison
+• nondeterministic output
+
+does not conform to the SSSL Open Standard.
+
+Independent implementations are permitted and encouraged.
+
+
+Relationship to Other Licenses
+
+This Open Standard applies only to the SSSL specification and its normative structural definitions.
+
+Reference implementations, example scripts, adapters, datasets, or tooling may be released under separate licenses if explicitly stated.
+
+Implementation licensing does not alter structural conformance requirements of this Standard.
+
+Nothing in this Standard grants trademark rights.
+
+
+Responsibility
+
+Use of SSSL in operational, infrastructure, AI, governance, industrial, financial, or safety-critical contexts is undertaken entirely at the user’s own responsibility.
+
+SSSL provides:
+
+• structural regime assignment
+• finite alphabet discipline
+• spectral boundedness verification
+• replay-verifiable artifact reproducibility
+
+It does not provide operational authority, regulatory certification, or safety guarantees.
+
+
+No Warranty
+
+THE STANDARD IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT.
+
+IN NO EVENT SHALL THE AUTHORS OR CONTRIBUTORS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM, OUT OF, OR IN CONNECTION WITH THE USE OF THIS STANDARD.
+
+
+Closing Statement
+
+Shunyaya Structural Substrate Layer (SSSL) is published as an Open Standard to maximize interoperability, deterministic reproducibility, and independent structural verification across domains.
+
+It is governed by structure — not by permission.
