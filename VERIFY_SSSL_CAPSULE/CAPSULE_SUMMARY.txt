@@ -1,0 +1,9 @@
+SSSL_VERIFY_CAPSULE
+CASES: SMOKE, MECH, FLUID, NEGCTL_ABSTAIN
+INVARIANTS:
+phi((m,a,s)) = m
+A4 = {Z0, Eplus, S, Eminus}
+|A4| = 4
+rho(P) = 1
+B_A = B_B
+RESULT: PASS
