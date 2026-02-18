@@ -1,0 +1,7 @@
+SSSL admissibility verdict
+adm_E: ALLOW
+Metrics:
+avg_dwell_S: 1.2043010752688172
+churn_ratio: 0.6362448268351122
+collapse_ratio: 0.42234807231539967
+count_S: 560.0

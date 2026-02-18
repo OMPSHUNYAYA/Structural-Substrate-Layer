@@ -1,0 +1,10 @@
+SSSL spectral artifact (deterministic QR iteration)
+Matrix order: [Z0, Eplus, S, Eminus]
+Eigenvalues (approx):
+0.900000000000
+1.000000000000
+0.221226252908
+-0.030750062432
+
+Spectral radius estimate:
+1.000000000000
